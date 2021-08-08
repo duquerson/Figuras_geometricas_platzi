@@ -25,3 +25,9 @@
       const area = area_cuadrado(value)
       alert(area)
   }
+  const calcular_perimetro_triangulo = () => {
+      const input = document.getElementById('input_triangulo')
+      const value = input.value
+      const perimetro = perimetro_triangulo(value)
+      alert(value)
+  }
