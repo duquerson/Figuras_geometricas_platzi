@@ -16,13 +16,13 @@ const area_circulo = (radio) => PI * (radio ** 2)
 function calcular_perimetro_cuadrado() {
     const input = document.getElementById("input_cuadrado")
     const value = input.value
-    const perimetro = perimetro_cuadrado(value)
+    let perimetro = perimetro_cuadrado(value)
     alert(perimetro)
 }
 const calcular_area_cuadrado = () => {
     const input = document.getElementById('input_cuadrado')
     const value = input.value
-    const area = area_cuadrado(value)
+    let area = area_cuadrado(value)
     alert(area)
 }
 const calcular_perimetro_triangulo = () => {
