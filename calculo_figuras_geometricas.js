@@ -26,12 +26,9 @@ const calcular_area_cuadrado = () => {
     alert(area);
 }
 const calcular_perimetro_triangulo = () => {
-    const LadoA = document.getElementById('input_lado_A')
-    const lado1 = LadoA.value
-    const LadoB = document.getElementById('input_lado_B')
-    const lado2 = LadoB.value
-    const basetriangulo = document.getElementById('input_lado_Base')
-    const base = basetriangulo.value
-    const perimetro = perimetro_triangulo(lado1, lado2, base)
+    const ladoA = Number(document.getElementById('input_lado_A').value)
+    const ladoB = Number(document.getElementById('input_lado_B').value)
+    const basetriangulo = Number(document.getElementById('input_lado_Base').value)
+    const perimetro = perimetro_triangulo(ladoA, ladoB, basetriangulo)
     alert(perimetro)
 }
