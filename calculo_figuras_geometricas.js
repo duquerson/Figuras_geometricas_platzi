@@ -38,3 +38,21 @@ const calcular_area_triangulo = () => {
     const area = area_triangulo(basetriangulo, altura)
     alert(area)
 }
+const calcular_diametro_circulo = () => {
+    const input = document.getElementById('input_circulo')
+    let value = Number(input.value)
+    let diametro = diametro_circulo(value)
+    alert(diametro)
+}
+const calcular_perimetro_circulo = () => {
+    const input = document.getElementById('input_circulo')
+    let value = Number(input.value)
+    let perimetro = perimetro_circulo(value)
+    alert(perimetro)
+}
+const calcular_area_circulo = () => {
+    const input = document.getElementById('input_circulo')
+    let value = Number(input.value)
+    let area = area_circulo(value)
+    alert(area)
+}
