@@ -32,3 +32,9 @@ const calcular_perimetro_triangulo = () => {
     const perimetro = perimetro_triangulo(ladoA, ladoB, basetriangulo)
     alert(perimetro)
 }
+const calcular_area_triangulo = () => {
+    const basetriangulo = Number(document.getElementById('input_lado_Base').value)
+    const altura = Number(document.getElementById('input_altura_triangulo').value)
+    const area = area_triangulo(basetriangulo, altura)
+    alert(area)
+}
