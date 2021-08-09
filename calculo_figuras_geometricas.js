@@ -12,7 +12,9 @@ const area_triangulo = (base, altura) => (base * altura) / 2
 const diametro_circulo = (radio) => radio * 2
 const perimetro_circulo = (radio) => diametro_circulo(radio) * PI
 const area_circulo = (radio) => PI * (radio ** 2)
-    //interaccion con html
+    //interaccion con html 
+
+//cuadrado 
 function calcular_perimetro_cuadrado() {
     const input = document.getElementById("input_cuadrado");
     const value = input.value;
@@ -20,11 +22,12 @@ function calcular_perimetro_cuadrado() {
     alert(perimetro);
 }
 const calcular_area_cuadrado = () => {
-    const input = document.getElementById('input_cuadrado');
-    const value = input.value;
-    let area = area_cuadrado(value);
-    alert(area);
-}
+        const input = document.getElementById('input_cuadrado');
+        const value = input.value;
+        let area = area_cuadrado(value);
+        alert(area);
+    }
+    //triangulo
 const calcular_perimetro_triangulo = () => {
     const ladoA = Number(document.getElementById('input_lado_A').value)
     const ladoB = Number(document.getElementById('input_lado_B').value)
@@ -33,11 +36,12 @@ const calcular_perimetro_triangulo = () => {
     alert(perimetro)
 }
 const calcular_area_triangulo = () => {
-    const basetriangulo = Number(document.getElementById('input_lado_Base').value)
-    const altura = Number(document.getElementById('input_altura_triangulo').value)
-    const area = area_triangulo(basetriangulo, altura)
-    alert(area)
-}
+        const basetriangulo = Number(document.getElementById('input_lado_Base').value)
+        const altura = Number(document.getElementById('input_altura_triangulo').value)
+        const area = area_triangulo(basetriangulo, altura)
+        alert(area)
+    }
+    //circulo
 const calcular_diametro_circulo = () => {
     const input = document.getElementById('input_circulo')
     let value = Number(input.value)
