@@ -60,3 +60,18 @@ const calcular_area_circulo = () => {
     let area = area_circulo(value)
     alert(area)
 }
+
+//triangulo isosceles calcular altura
+
+const altura_triangulo_isosceles = (lado1, lado2, base) => {
+    if (lado1 === lado2) {
+        console.log('triangulo isosceles')
+        let altura = Math.sqrt(lado1 ** 2 - (base ** 2 / 4))
+        return console.log(altura)
+    } else {
+        console.error('no es un triangulo isosceles');
+    }
+}
+
+altura_triangulo_isosceles(2, 3, 4)
+altura_triangulo_isosceles(3, 3, 2)
