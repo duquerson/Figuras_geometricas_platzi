@@ -12,7 +12,10 @@ const area_triangulo = (base, altura) => (base * altura) / 2
 const diametro_circulo = (radio) => radio * 2
 const perimetro_circulo = (radio) => diametro_circulo(radio) * PI
 const area_circulo = (radio) => PI * (radio ** 2)
-    //interaccion con html 
+
+
+
+//interaccion con html 
 
 //cuadrado 
 function calcular_perimetro_cuadrado() {
