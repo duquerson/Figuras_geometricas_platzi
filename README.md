@@ -10,4 +10,4 @@
 =======
 # Figuras_geometricas_platzi
 integración entre HTML CSS y JS haciendo una calculadora de figuras geometricas
->>>>>>> 04cea051e74c287e27756e4d5052b2217801752a
+
