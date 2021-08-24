@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## taller #1:  figuras geometricas
 
 - primer paso: definir formulas
